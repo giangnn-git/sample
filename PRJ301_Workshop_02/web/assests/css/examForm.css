@@ -1,0 +1,92 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .header h1 {
+            margin: 10px 0;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .form-actions input {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .form-actions input[type="reset"] {
+            background-color: #6c757d;
+        }
+
+        .message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #842029;
+        }
+
+        .success {
+            background-color: #d1e7dd;
+            color: #0f5132;
+        }
+
+        .access-denied {
+            text-align: center;
+            color: #dc3545;
+        }
